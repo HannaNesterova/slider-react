@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #D1E8E4;
+  height: 800px;
+  padding-top: 10px;
+}
+
+.person {
+  margin: 10px;
+}
+
+
+.btn {
+ display: flex;
+ justify-content: space-evenly;
+ gap: 30px;
+}
+
+
+
+button {
+  background-color: #C37B89;
+  width: 150px;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 30px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #4d3137;
+}
