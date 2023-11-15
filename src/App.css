@@ -12,7 +12,6 @@ body{
   justify-content: center;
   align-items: center;
   background-color: #437584;
-  height: 100vh;
   padding: 50px 100px ;
 }
 .header_container{
@@ -46,7 +45,7 @@ button {
   color: #fff;
   border: none;
   cursor: pointer;
-  font-size: 30px;
+  font-size: 18px;
   text-align: center;
   margin-left: 30px;
 }
@@ -67,4 +66,30 @@ button:hover{
   justify-content: center;
   font-size: 30px;
   color: #FFFFFF;
+}
+.presentsContainer{
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #FBFCF8;
+  padding: 10px;
+}
+.flex_presents{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.btn_del_all{
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+}
+.btn_del_all button{
+  width: 150px;
+  padding: 5px;
 }
