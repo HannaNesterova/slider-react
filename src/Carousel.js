@@ -12,7 +12,7 @@ function Carousel(){
     const nextPage = () => {
         setCarousel(carousel => {
             carousel ++;
-            if ( carousel > data.length -5){
+            if ( carousel > data.length -1){
                 carousel = 0;
             }
             return carousel;
@@ -23,7 +23,7 @@ function Carousel(){
         setCarousel(carousel => {
             carousel --;
             if ( carousel < 0){
-                return data.length -5
+                return data.length -1
             }
             return carousel;
         })
