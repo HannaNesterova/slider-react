@@ -1,5 +1,7 @@
-#Hello friends. 
+##Hello friends. 
+
 ___It's nice to see you here.___
+
 ######I want to introduce you the site, which can make your shopping more easy, and help you to find the most appropriate gift for your significant other.
 
 __We position the application, as:__
@@ -12,7 +14,7 @@ __We position the application, as:__
  ***
  
  > People say:
- >> This app make my life easier. 
+ >> This app made my life easier. 
  >>Now, I don't have a headache, when try to find gifts for my friends.
 
 ![Welcome](./src/img/gift.jpeg)
