@@ -1,6 +1,7 @@
 import { useState } from "react";
 import './App.css';
 import { dataPresents } from "./dataPresents";
+import { Link } from 'react-router-dom';
 
 function Presents(){
 
@@ -37,6 +38,7 @@ function Presents(){
             <div className="btn_del_all">
                 <button onClick={() => setPresent([])}>DELETE ALL ITEMS</button>
             </div>
+            <Link to="/" className="presents_link">Come back</Link>
         </div>
     );
 }

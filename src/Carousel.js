@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { data } from "./data";
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Presents from "./Presents";
+import { Link } from 'react-router-dom';
 import './App.css';
 
 function Carousel(){
@@ -31,7 +30,6 @@ function Carousel(){
 
 
     return(
-        <Router>
         <div>
             <div className="header_container">
                 <div className="header_text_container">
@@ -47,12 +45,7 @@ function Carousel(){
                 <img src={image} width='700px' alt="pic"/>
             </div>
             <Link to="presents" className="presents_link">Watch our presents!</Link>
-        
-            <Routes>
-                    <Route path="/presents" element={<Presents />} />
-                </Routes>
       </div>
-    </Router>
     )
 }
 

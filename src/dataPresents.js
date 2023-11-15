@@ -1,4 +1,4 @@
-import bouquet from './img/presents_img/ bouquet.jpeg';
+import bouquet from './img/presents_img/bouquet.jpeg'
 import chocolate from './img/presents_img/chocolate .jpeg';
 import cooking from './img/presents_img/cooking.jpeg';
 import dinner from './img/presents_img/dinner.jpeg';
