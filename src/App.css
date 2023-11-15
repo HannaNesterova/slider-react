@@ -93,3 +93,9 @@ button:hover{
   width: 150px;
   padding: 5px;
 }
+
+h4{
+  color: #402039;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
